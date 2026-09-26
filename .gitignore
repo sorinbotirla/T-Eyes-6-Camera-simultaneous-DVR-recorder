@@ -1,0 +1,18 @@
+# Local Android tooling and generated builds
+.gradle/
+.idea/
+local.properties
+**/build/
+*.iml
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# Private device reports, captures and extracted manufacturer applications
+/diagnostics/
+/VEHICLE-CONTEXT.md
+/outputs/
+/Rapoarte/
+*.zip
+# Gradle wrapper JAR is required and must be committed.

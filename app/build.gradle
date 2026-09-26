@@ -1,0 +1,26 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'ro.interfaz.cameratester'
+ compileSdk 35
+ buildToolsVersion '36.0.0'
+ defaultConfig {
+  applicationId 'ro.interfaz.cameratester'
+  minSdk 26
+  targetSdk 33
+  versionCode 8
+  versionName '0.4.2'
+ }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+ testOptions { unitTests.includeAndroidResources = true }
+ lint { disable 'ExpiredTargetSdkVersion', 'OldTargetApi', 'GradleDependency', 'AndroidGradlePluginVersion' }
+ packaging { resources { excludes += ['META-INF/AL2.0', 'META-INF/LGPL2.1'] } }
+}
+dependencies {
+ implementation 'com.herohan:UVCAndroid:1.0.13'
+ implementation 'net.java.dev.jna:jna:5.17.0@aar'
+ implementation 'androidx.media3:media3-exoplayer:1.5.1'
+ implementation 'androidx.media3:media3-exoplayer-rtsp:1.5.1'
+ implementation 'androidx.media3:media3-exoplayer-hls:1.5.1'
+ testImplementation 'junit:junit:4.13.2'
+ testImplementation 'org.robolectric:robolectric:4.14.1'
+}
