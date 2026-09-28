@@ -1,22 +1,18 @@
-# Camera Tester
+# T'Eyes CC4 PRO Camera Tester
 
 Android camera discovery, six-camera TEYES preview and a looping USB DVR.
-Application ID: `ro.interfaz.cameratester`. Drawer name: **Camera Tester**.
-The target device is TEYES CC4 Pro; root and Developer Options are not required.
-All application UI is in English.
+root and Developer Options are not required.
 
 ## Current build
 
-Version **0.4.2**, version code **8**, adds background recording and shared navigation.
-Install `Camera-Tester-0.4.2-background-debug.apk` over the existing Camera Tester.
-The original 0.4.2 (version code 7) recording pipeline is retained, including its
-three-minute segments, storage recovery and slow-finalization handling.
-
-Six-camera preview and three segment sets were verified on the target CC4 Pro in
-September 2026. The new background service requires another test on that device;
-JVM tests do not validate vendor camera delivery or firmware power management.
-Known recording limitations include gaps at segment boundaries and variable
-surround-camera output FPS. See [recording details](RECORDING-GUIDE.md).
+This app allows simultaneous record from all the 6 cameras, <br />
+the ADAS Front, <br /> 
+ADAS Rear,  <br /> 
+360 Front,  <br /> 
+360 Left,  <br /> 
+360 Right  <br /> 
+and 360 Rear.  <br /> 
+See [recording details](RECORDING-GUIDE.md).
 
 ## Navigation
 
