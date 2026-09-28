@@ -1,7 +1,8 @@
 # T'Eyes CC4 PRO Camera Tester
 
 Android camera discovery, six-camera TEYES preview and a looping USB DVR.
-root and Developer Options are not required.
+root and Developer Options are not required. It's strongly recommended to use a USB 3.2 Stick plugged in the port labelled "USB1".
+Stop the T'Eyes DVR recording when using this app to free up some bandwidth.
 
 ## Current build
 
