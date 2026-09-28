@@ -1,4 +1,4 @@
-# Camera Tester 0.4.2 — six-camera recording test
+# Camera Tester 0.4.2 - six-camera recording test
 
 **Menu → Record** records one to six selected TEYES channels as separate H.264 MP4 files on removable USB storage. No root, Developer Options or audio permission is required. Application controls are in English.
 
