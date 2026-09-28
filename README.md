@@ -16,27 +16,6 @@ ADAS Rear,  <br />
 and 360 Rear.  <br /> 
 See [recording details](RECORDING-GUIDE.md).
 
-## Navigation
-
-Open the menu icon at the top right:
-
-- **Detect cameras** inventories sources, saves discoveries incrementally, and
-  provides manual testing and assignment. A discovered source is not marked as a
-  working stream until frames arrive.
-- **Show cameras** opens the six TEYES positions. Tap a tile for an individual
-  camera; use Back or **Show cameras** to return to all six. **Camera options** in
-  the same menu contains channel selection, preview stop and status refresh.
-- **Record** selects one to six cameras, resolution, FPS, bitrate and removable
-  storage. It also contains USB formatting through Android settings and the
-  camera/USB benchmark.
-- **Export → Export config** saves camera discoveries, mappings and recording
-  settings as JSON. **Export reports** saves the selected report as text. Android
-  lets the user choose the filename and destination.
-- **Export → Export all TEYES apps and services** exports all visible installed
-  packages and accessible service/framework code to one ZIP, without a package
-  whitelist or application-imposed file/total byte limit. Denied reads are logged.
-- **About** shows the requested version and author credit.
-
 ## Background recording
 
 Start recording with the white circle. Once capturing, the control is a red square.
