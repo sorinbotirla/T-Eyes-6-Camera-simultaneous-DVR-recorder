@@ -2,7 +2,7 @@
 
 **Menu > Record** records one to six selected TEYES channels as separate H.264 MP4 files on removable USB storage. No root, Developer Options or audio permission is required. Application controls are in English.
 
-The six-camera preview route was verified on my CC4 PRO on September 11. On September 14, version 0.4.2 completed two automatic transitions and finalized three six-camera segment sets at 720p / 6 Mbps each: two full three-minute segments and a roughly 100-second stopped segment. No automatic error occurred. The previous slow-finalization handling was corrected, while measured transition gaps of about 4.5 seconds and variable surround-camera output FPS remain. See the [latest device results](diagnostics/2026-09-14-rollover-success.md), [rollover analysis](diagnostics/2026-09-14-rollover-failure.md) and [earlier recording results](diagnostics/2026-09-14-six-camera-recording.md). Recovery from a native cleanup exceeding eight seconds is covered by local tests but was not needed during this device run.
+The six-camera preview route was verified on my CC4 PRO on September 11. On September 14, version 0.4.2 completed two automatic transitions and finalized three six-camera segment sets at 720p / 6 Mbps each: two full three-minute segments and a roughly 100-second stopped segment. No automatic error occurred. The previous slow-finalization handling was corrected, while measured transition gaps of about 4.5 seconds and variable surround-camera output FPS remain. Recovery from a native cleanup exceeding eight seconds is covered by local tests but was not needed during this device run.
 
 ## First test
 
