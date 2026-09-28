@@ -1,6 +1,6 @@
 # Camera Tester 0.4.2 - six-camera recording test
 
-**Menu → Record** records one to six selected TEYES channels as separate H.264 MP4 files on removable USB storage. No root, Developer Options or audio permission is required. Application controls are in English.
+**Menu > Record** records one to six selected TEYES channels as separate H.264 MP4 files on removable USB storage. No root, Developer Options or audio permission is required. Application controls are in English.
 
 The six-camera preview route was verified on my CC4 PRO on September 11. On September 14, version 0.4.2 completed two automatic transitions and finalized three six-camera segment sets at 720p / 6 Mbps each: two full three-minute segments and a roughly 100-second stopped segment. No automatic error occurred. The previous slow-finalization handling was corrected, while measured transition gaps of about 4.5 seconds and variable surround-camera output FPS remain. See the [latest device results](diagnostics/2026-09-14-rollover-success.md), [rollover analysis](diagnostics/2026-09-14-rollover-failure.md) and [earlier recording results](diagnostics/2026-09-14-six-camera-recording.md). Recovery from a native cleanup exceeding eight seconds is covered by local tests but was not needed during this device run.
 
@@ -13,7 +13,7 @@ The six-camera preview route was verified on my CC4 PRO on September 11. On Sept
 5. Run **Benchmark selected cameras + USB**. It writes and synchronizes 64 MiB, then records the selected cameras for about 30 seconds after all channels supply frames. Temporary files are removed afterward. Both existing `last` and `current` recordings are preserved.
 6. Tap the **small solid white circle** to start the three-minute loop. During preparation, controls are disabled. Once every selected channel supplies encoded frames, the control becomes a **small solid red square**. Tap it to stop; wait for **Ready** before removing the drive.
 7. For this rollover regression test, use the same six-camera 720p / 30 FPS / 6 Mbps profile and record for at least seven minutes, then stop. Check both folders and play every selected camera's MP4.
-8. Use **View recording / benchmark report** on the head unit or **Menu → Export → Export reports** to save a named copy to a chosen destination. The app also saves `6camdvr/recording-report-latest.txt` when the USB remains writable.
+8. Use **View recording / benchmark report** on the head unit or **Menu > Export > Export reports** to save a named copy to a chosen destination. The app also saves `6camdvr/recording-report-latest.txt` when the USB remains writable.
 
 Recording continues when you leave the screen, press Home/Back, switch applications or remove the task from Recents. The foreground service owns capture and keeps a partial wake lock until camera and file cleanup completes. The notification opens the DVR screen and has an explicit Stop action. Returning to Record restores the current state, selected profile and live measurements. No audio is recorded.
 
