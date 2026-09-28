@@ -18,7 +18,7 @@ See [recording details](RECORDING-GUIDE.md).
 
 ## Navigation
 
-Open the hamburger at the top right:
+Open the menu icon at the top right:
 
 - **Detect cameras** inventories sources, saves discoveries incrementally, and
   provides manual testing and assignment. A discovered source is not marked as a
